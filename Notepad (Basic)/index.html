@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="notepad">
+        <textarea id="editor"></textarea>
+        <div class="controls">
+            <button onclick="countWords()">Count Words</button>
+            <input type="text" id="findInput" placeholder="Find Word">
+            <button onclick="findWord()">Find</button>
+            <button onclick="editWord()">Edit Word</button>
+            <button onclick="deleteWord()">Delete Word</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
